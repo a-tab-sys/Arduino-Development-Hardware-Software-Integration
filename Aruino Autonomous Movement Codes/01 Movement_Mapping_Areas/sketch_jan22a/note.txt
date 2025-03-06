@@ -1,0 +1,27 @@
+Explanation of the Code:
+Adjustable Parameters:
+
+speed: Controls the speed of the motors (range: 0-255).
+rowLength: Specifies how long the robot moves forward for each row.
+turnDuration: Time required to make a 90-degree turn.
+rows: Total number of rows to traverse.
+Functions:
+
+moveForward(duration): Moves the robot forward for a given duration.
+moveBackward(duration): Moves the robot backward for a given duration (if needed).
+turnRight(duration): Executes a 90-degree right turn by rotating one wheel forward and the other backward.
+turnLeft(duration): Executes a 90-degree left turn.
+stopMotors(): Stops all motor activity.
+Traversal Logic:
+
+The robot moves forward row by row.
+At the end of each row (except the last), it makes a 90-degree right turn, moves slightly forward, and makes another 90-degree right turn to align with the next row.
+After completing all rows, the robot stops.
+How to Test and Adjust:
+Field Dimensions:
+Measure the actual row length and adjust rowLength accordingly.
+Turn Accuracy:
+Fine-tune turnDuration to achieve precise 90-degree turns.
+Speed Control:
+Start with a moderate speed and increase gradually for better control.
+Would you like me to help further refine this code or integrate sensors for obstacle detection?

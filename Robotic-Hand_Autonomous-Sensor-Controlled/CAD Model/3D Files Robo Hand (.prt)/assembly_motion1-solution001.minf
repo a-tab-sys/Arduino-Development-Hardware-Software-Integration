@@ -1,0 +1,1606 @@
+Input file: C:\Users\Hasaan\Documents\CAD\Design Project\3D Files Robo Hand\3D Files Robo Hand (.prt)\assembly_motion1-solution001.minp
+
+Solver running in Simcenter Mode
+
+Copyright Siemens 2022
+
+
+[1764]
+Info: The Business Analytics flag has been set to Yes.
+
+Solver: Simcenter 3D Motion Version 2212 (13.0) Oct 12 2022 22:03:08 Intel Release 64bit
+Interface: RC2212P1400rc1 2022-10-17
+Hostname: DESKTOP-RM0TU4T
+OS Type: Windows
+Release: 6.2
+Version: Build 9200
+Machine: 8664
+Integer size:    5000000
+Real size:    5000000
+Mcheps: 0.22204460492503E-15
+
+[1296]
+Warning (dynamic data element):  When "INTERPOLATED" is selected for the
+print method, the print frequency feature cannot be used.  PRINT.Freq is
+being reset to zero (disabled) and execution is continuing.
+ The GGL formulation is turned on.
+
+[1276]
+Warning:  In the dynamic data element, the step size is larger
+than the print interval specified in the system data element.  The step
+size is being reset so that it equals the print interval.
+  PRint.interval = 0.10000000000000E-01
+  old MAX.int.step = 5.0000000000000E-02
+  new MAX.int.step = 0.10000000000000E-01
+NOTE:  The Time Series Global Output element will reduce PRint.interval
+       when the Output Rate variable is set to two or more.
+
+License Server is [28000@nxlicense.ontariotechu.net]
+
+Features requiring licenses
+-----------------------
+sc_motion_solver "Simcenter Motion Solver"
+
+
+[1516]
+Warning: Prior to the assembly analysis one or more constraints are not
+satisfied within the specified assembly tolerance.  The assembly analysis will
+attempt to adjust the model to achieve this tolerance across all constraints.
+If assembly analysis fails, or if the model assembles to an undesired position
+the following elements whose constraint residuals exceed the specified assembly
+tolerance should be checked:
+                                 Constraint
+.........Element Type.........  ..Number..  ..Violation..  ........Name........
+ Driver element                     1        1.483530    
+MOTION_J001_RZ
+ Driver element                     1        1.308997    
+MOTION_J002_RZ
+ Driver element                     1       -.2617994    
+MOTION_J003_RZ
+ Driver element                     1       -.5235988    
+MOTION_J004_RZ
+ Driver element                     1       0.4363323    
+MOTION_J005_RZ
+ Driver element                     1       -.2792527    
+MOTION_J006_RZ
+ Driver element                     1       0.1745329    
+MOTION_J007_RZ
+ Driver element                     1       0.6632251    
+MOTION_J008_RZ
+ Driver element                     1       0.8726646    
+MOTION_J009_RZ
+ Driver element                     1        1.047198    
+MOTION_J010_RZ
+ Driver element                     1       0.2443461    
+MOTION_J011_RZ
+ Driver element                     1       0.2617994    
+MOTION_J012_RZ
+ Driver element                     1       -.6108652    
+MOTION_J013_RZ
+ Driver element                     1       -.5235988    
+MOTION_J014_RZ
+ Driver element                     1       0.1400000E-01
+MOTION_J015_TZ
+
+Results achieved by the model assembly process without drivers:
+
+  Number of function evaluations =     1
+  Maximum constraint violation   =   0.109045E-12
+
+ Element: ARM
+    Coordinate    New Value     Original Value  Difference
+    X             0.56813E-02    0.56813E-02     0.0000    
+    Y             0.13195        0.13195         0.0000    
+    Z             0.24456        0.24456         0.0000    
+    E0            0.14673        0.14673         0.0000    
+    E1           -0.37847       -0.37847         0.0000    
+    E2           -0.91188       -0.91188         0.0000    
+    E3           -0.60890E-01   -0.60890E-01     0.0000    
+
+ Element: B001
+    Coordinate    New Value     Original Value  Difference
+    X             0.22725E-01    0.22725E-01     0.0000    
+    Y             0.12004        0.12004         0.0000    
+    Z             0.32976        0.32976         0.0000    
+    E0            0.36213E-02    0.36213E-02     0.0000    
+    E1            0.46089        0.46089         0.0000    
+    E2            0.88650        0.88650         0.0000    
+    E3           -0.41032E-01   -0.41032E-01     0.0000    
+
+ Element: B002
+    Coordinate    New Value     Original Value  Difference
+    X             0.38147E-01    0.38147E-01     0.0000    
+    Y             0.98943E-01    0.98943E-01     0.0000    
+    Z             0.23043        0.23043         0.0000    
+    E0            0.66208        0.66208         0.0000    
+    E1            0.64518        0.64518         0.0000    
+    E2           -0.28565       -0.28565         0.0000    
+    E3           -0.25260       -0.25260         0.0000    
+
+ Element: B003
+    Coordinate    New Value     Original Value  Difference
+    X            -0.87064E-02   -0.87064E-02     0.0000    
+    Y             0.10430        0.10430         0.0000    
+    Z             0.39513        0.39513         0.0000    
+    E0            0.75324        0.75324         0.0000    
+    E1           -0.83085E-01   -0.83085E-01     0.0000    
+    E2           -0.53143       -0.53143         0.0000    
+    E3           -0.37857       -0.37857         0.0000    
+
+ Element: B004
+    Coordinate    New Value     Original Value  Difference
+    X             0.10333E-01    0.10333E-01     0.0000    
+    Y             0.11210        0.11210         0.0000    
+    Z             0.40755        0.40755         0.0000    
+    E0            0.13566        0.13566         0.0000    
+    E1            0.36843        0.36843         0.0000    
+    E2            0.91951        0.91951         0.0000    
+    E3            0.18860E-01    0.18860E-01     0.0000    
+
+ Element: B005
+    Coordinate    New Value     Original Value  Difference
+    X             0.36624E-01    0.36624E-01     0.0000    
+    Y             0.15216        0.15216         0.0000    
+    Z             0.40060        0.40060         0.0000    
+    E0            0.87258        0.87258         0.0000    
+    E1           -0.26709       -0.26709         0.0000    
+    E2           -0.29396       -0.29396         0.0000    
+    E3           -0.28435       -0.28435         0.0000    
+
+ Element: B006
+    Coordinate    New Value     Original Value  Difference
+    X             0.30762E-01    0.30762E-01     0.0000    
+    Y             0.12619        0.12619         0.0000    
+    Z             0.40873        0.40873         0.0000    
+    E0           -0.70259E-01   -0.70259E-01     0.0000    
+    E1            0.36809        0.36809         0.0000    
+    E2            0.92685        0.92685         0.0000    
+    E3           -0.22887E-01   -0.22887E-01     0.0000    
+
+ Element: B007
+    Coordinate    New Value     Original Value  Difference
+    X             0.85070E-01    0.85070E-01     0.0000    
+    Y             0.13448        0.13448         0.0000    
+    Z             0.35095        0.35095         0.0000    
+    E0            0.55823        0.55823         0.0000    
+    E1            0.94594E-01    0.94594E-01     0.0000    
+    E2           -0.79677       -0.79677         0.0000    
+    E3           -0.21114       -0.21114         0.0000    
+
+ Element: B008
+    Coordinate    New Value     Original Value  Difference
+    X            -0.31352E-01   -0.31352E-01     0.0000    
+    Y             0.11502        0.11502         0.0000    
+    Z             0.42012        0.42012         0.0000    
+    E0            0.80801        0.80801         0.0000    
+    E1           -0.45076E-01   -0.45076E-01     0.0000    
+    E2           -0.44657       -0.44657         0.0000    
+    E3           -0.38166       -0.38166         0.0000    
+
+ Element: B009
+    Coordinate    New Value     Original Value  Difference
+    X            -0.20022E-01   -0.20022E-01     0.0000    
+    Y             0.10972        0.10972         0.0000    
+    Z             0.40675        0.40675         0.0000    
+    E0            0.19655        0.19655         0.0000    
+    E1            0.37866        0.37866         0.0000    
+    E2            0.90201        0.90201         0.0000    
+    E3            0.66047E-01    0.66047E-01     0.0000    
+
+ Element: B010
+    Coordinate    New Value     Original Value  Difference
+    X             0.36618E-02    0.36618E-02     0.0000    
+    Y             0.11263        0.11263         0.0000    
+    Z             0.43456        0.43456         0.0000    
+    E0            0.83284E-01    0.83284E-01     0.0000    
+    E1            0.37696        0.37696         0.0000    
+    E2            0.92153        0.92153         0.0000    
+    E3            0.41830E-01    0.41830E-01     0.0000    
+
+ Element: B011
+    Coordinate    New Value     Original Value  Difference
+    X             0.30355E-01    0.30355E-01     0.0000    
+    Y             0.16654        0.16654         0.0000    
+    Z             0.42198        0.42198         0.0000    
+    E0            0.91307        0.91307         0.0000    
+    E1           -0.19920       -0.19920         0.0000    
+    E2           -0.10130       -0.10130         0.0000    
+    E3           -0.34113       -0.34113         0.0000    
+
+ Element: B012
+    Coordinate    New Value     Original Value  Difference
+    X             0.14523E-02    0.14523E-02     0.0000    
+    Y             0.11008        0.11008         0.0000    
+    Z             0.45845        0.45845         0.0000    
+    E0            0.92557        0.92557         0.0000    
+    E1            0.10225        0.10225         0.0000    
+    E2            0.75010E-01    0.75010E-01     0.0000    
+    E3           -0.35671       -0.35671         0.0000    
+
+ Element: B013
+    Coordinate    New Value     Original Value  Difference
+    X             0.31515E-01    0.31515E-01     0.0000    
+    Y             0.17508        0.17508         0.0000    
+    Z             0.44452        0.44452         0.0000    
+    E0            0.91946        0.91946         0.0000    
+    E1           -0.14195       -0.14195         0.0000    
+    E2            0.56594E-01    0.56594E-01     0.0000    
+    E3           -0.36227       -0.36227         0.0000    
+
+ Element: B014
+    Coordinate    New Value     Original Value  Difference
+    X             0.34663E-01    0.34663E-01     0.0000    
+    Y             0.12574        0.12574         0.0000    
+    Z             0.43997        0.43997         0.0000    
+    E0           -0.63926E-01   -0.63926E-01     0.0000    
+    E1            0.38139        0.38139         0.0000    
+    E2            0.92183        0.92183         0.0000    
+    E3           -0.26181E-01   -0.26181E-01     0.0000    
+
+ Element: B015
+    Coordinate    New Value     Original Value  Difference
+    X             0.35883E-01    0.35883E-01     0.0000    
+    Y             0.12794        0.12794         0.0000    
+    Z             0.46736        0.46736         0.0000    
+    E0            0.92955        0.92955         0.0000    
+    E1           -0.52081E-01   -0.52081E-01     0.0000    
+    E2           -0.36712E-02   -0.36712E-02     0.0000    
+    E3           -0.36499       -0.36499         0.0000    
+
+ Element: B016
+    Coordinate    New Value     Original Value  Difference
+    X             0.10949        0.10949         0.0000    
+    Y             0.12755        0.12755         0.0000    
+    Z             0.36028        0.36028         0.0000    
+    E0            0.40422        0.40422         0.0000    
+    E1            0.54675E-01    0.54675E-01     0.0000    
+    E2           -0.88492       -0.88492         0.0000    
+    E3           -0.22479       -0.22479         0.0000    
+
+ Element: B017
+    Coordinate    New Value     Original Value  Difference
+    X            -0.13935E-01   -0.13935E-01     0.0000    
+    Y             0.12959        0.12959         0.0000    
+    Z             0.34308        0.34308         0.0000    
+    E0            0.93042        0.93042         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3           -0.36650       -0.36650         0.0000    
+
+ Element: B018
+    Coordinate    New Value     Original Value  Difference
+    X            -0.66149E-03   -0.66149E-03     0.0000    
+    Y             0.13465        0.13465         0.0000    
+    Z             0.33008        0.33008         0.0000    
+    E0            0.93042        0.93042         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3           -0.36650       -0.36650         0.0000    
+
+ Element: B019
+    Coordinate    New Value     Original Value  Difference
+    X            -0.18052E-01   -0.18052E-01     0.0000    
+    Y             0.11600        0.11600         0.0000    
+    Z             0.33008        0.33008         0.0000    
+    E0            0.93042        0.93042         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3           -0.36650       -0.36650         0.0000    
+
+ Element: B020
+    Coordinate    New Value     Original Value  Difference
+    X            -0.66149E-03   -0.66149E-03     0.0000    
+    Y             0.13465        0.13465         0.0000    
+    Z             0.35608        0.35608         0.0000    
+    E0            0.93042        0.93042         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3           -0.36650       -0.36650         0.0000    
+
+ Element: B021
+    Coordinate    New Value     Original Value  Difference
+    X            -0.18052E-01   -0.18052E-01     0.0000    
+    Y             0.11600        0.11600         0.0000    
+    Z             0.35608        0.35608         0.0000    
+    E0            0.93042        0.93042         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3           -0.36650       -0.36650         0.0000    
+
+ Element: B022
+    Coordinate    New Value     Original Value  Difference
+    X            -0.30514E-01   -0.30514E-01     0.0000    
+    Y             0.14218        0.14218         0.0000    
+    Z             0.34363        0.34363         0.0000    
+    E0           -0.88776E-01   -0.88776E-01     0.0000    
+    E1            0.84385        0.84385         0.0000    
+    E2            0.52806        0.52806         0.0000    
+    E3           -0.34448E-01   -0.34448E-01     0.0000    
+
+ Element: B023
+    Coordinate    New Value     Original Value  Difference
+    X            -0.29466E-01   -0.29466E-01     0.0000    
+    Y             0.14373        0.14373         0.0000    
+    Z             0.38743        0.38743         0.0000    
+    E0            0.54313E-04    0.54313E-04     0.0000    
+    E1            0.74585        0.74585         0.0000    
+    E2            0.66611        0.66611         0.0000    
+    E3            0.60983E-04    0.60983E-04     0.0000    
+
+ Element: FINALRAIL
+    Coordinate    New Value     Original Value  Difference
+    X             0.15781E-02    0.15781E-02     0.0000    
+    Y             0.13458        0.13458         0.0000    
+    Z             0.34308        0.34308         0.0000    
+    E0            0.28196        0.28196         0.0000    
+    E1           -0.64846       -0.64846         0.0000    
+    E2           -0.28196       -0.28196         0.0000    
+    E3           -0.64846       -0.64846         0.0000    
+
+ Element: the_ground
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: J022
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.50608E-14    0.50608E-14     0.0000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.63838E-14   -0.63838E-14     0.0000    
+
+ Element: MOTION_J002_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.11341E-12    0.11341E-12     0.0000    
+
+ Element: MOTION_J003_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.15921E-12   -0.15921E-12     0.0000    
+
+ Element: MOTION_J004_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.35777E-13    0.35777E-13     0.0000    
+
+ Element: MOTION_J005_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.60452E-13   -0.60452E-13     0.0000    
+
+ Element: MOTION_J006_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.24591E-13    0.24591E-13     0.0000    
+
+ Element: MOTION_J007_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.64601E-13    0.64601E-13     0.0000    
+
+ Element: MOTION_J008_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.82157E-13   -0.82157E-13     0.0000    
+
+ Element: MOTION_J009_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.26187E-13    0.26187E-13     0.0000    
+
+ Element: MOTION_J010_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.26645E-14   -0.26645E-14     0.0000    
+
+ Element: MOTION_J011_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.46407E-13    0.46407E-13     0.0000    
+
+ Element: MOTION_J012_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.15543E-14    0.15543E-14     0.0000    
+
+ Element: MOTION_J013_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.22510E-13   -0.22510E-13     0.0000    
+
+ Element: MOTION_J014_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.84571E-13   -0.84571E-13     0.0000    
+
+Results achieved by the model assembly process with drivers:
+
+  Number of function evaluations =     6
+  Maximum constraint violation   =   0.378321E-05
+
+ Element: ARM
+    Coordinate    New Value     Original Value  Difference
+    X             0.56813E-02    0.56813E-02     0.0000    
+    Y             0.13195        0.13195         0.0000    
+    Z             0.24456        0.24456         0.0000    
+    E0            0.14673        0.14673         0.0000    
+    E1           -0.37847       -0.37847         0.0000    
+    E2           -0.91188       -0.91188         0.0000    
+    E3           -0.60890E-01   -0.60890E-01     0.0000    
+
+ Element: B001
+    Coordinate    New Value     Original Value  Difference
+    X             0.22725E-01    0.22725E-01     0.0000    
+    Y             0.12004        0.12004         0.0000    
+    Z             0.32976        0.32976         0.0000    
+    E0            0.36213E-02    0.36213E-02     0.0000    
+    E1            0.46089        0.46089         0.0000    
+    E2            0.88650        0.88650         0.0000    
+    E3           -0.41032E-01   -0.41032E-01     0.0000    
+
+ Element: B002
+    Coordinate    New Value     Original Value  Difference
+    X             0.38147E-01    0.38147E-01     0.0000    
+    Y             0.98943E-01    0.98943E-01     0.0000    
+    Z             0.23043        0.23043         0.0000    
+    E0            0.66208        0.66208         0.0000    
+    E1            0.64518        0.64518         0.0000    
+    E2           -0.28565       -0.28565         0.0000    
+    E3           -0.25260       -0.25260         0.0000    
+
+ Element: B003
+    Coordinate    New Value     Original Value  Difference
+    X             0.16405E-02   -0.87064E-02    0.10347E-01
+    Y             0.93553E-01    0.10430       -0.10746E-01
+    Z             0.39802        0.39513        0.28830E-02
+    E0            0.91376        0.75324        0.16053    
+    E1            0.18915       -0.83085E-01    0.27224    
+    E2            0.11972       -0.53143        0.65115    
+    E3           -0.33901       -0.37857        0.39558E-01
+
+ Element: B004
+    Coordinate    New Value     Original Value  Difference
+    X             0.16197E-01    0.10333E-01    0.58634E-02
+    Y             0.10692        0.11210       -0.51859E-02
+    Z             0.40605        0.40755       -0.15040E-02
+    E0           -0.10650        0.13566       -0.24216    
+    E1            0.35084        0.36843       -0.17597E-01
+    E2            0.92326        0.91951        0.37557E-02
+    E3            0.11469        0.18860E-01    0.95831E-01
+
+ Element: B005
+    Coordinate    New Value     Original Value  Difference
+    X             0.47978E-01    0.36624E-01    0.11354E-01
+    Y             0.14205        0.15216       -0.10104E-01
+    Z             0.40172        0.40060        0.11163E-02
+    E0            0.90203        0.87258        0.29447E-01
+    E1           -0.91177E-01   -0.26709        0.17591    
+    E2            0.18237       -0.29396        0.47633    
+    E3           -0.38049       -0.28435       -0.96141E-01
+
+ Element: B006
+    Coordinate    New Value     Original Value  Difference
+    X             0.32702E-01    0.30762E-01    0.19394E-02
+    Y             0.12424        0.12619       -0.19518E-02
+    Z             0.40763        0.40873       -0.11079E-02
+    E0           -0.15078       -0.70259E-01   -0.80519E-01
+    E1            0.36868        0.36809        0.59274E-03
+    E2            0.91720        0.92685       -0.96508E-02
+    E3            0.92647E-02   -0.22887E-01    0.32152E-01
+
+ Element: B007
+    Coordinate    New Value     Original Value  Difference
+    X             0.78143E-01    0.85070E-01   -0.69269E-02
+    Y             0.13221        0.13448       -0.22715E-02
+    Z             0.35687        0.35095        0.59227E-02
+    E0            0.29280        0.55823       -0.26543    
+    E1            0.26743E-01    0.94594E-01   -0.67850E-01
+    E2           -0.92777       -0.79677       -0.13100    
+    E3           -0.22978       -0.21114       -0.18639E-01
+
+ Element: B008
+    Coordinate    New Value     Original Value  Difference
+    X             0.15822E-01   -0.31352E-01    0.47175E-01
+    Y             0.71465E-01    0.11502       -0.43552E-01
+    Z             0.41897        0.42012       -0.11520E-02
+    E0            0.66890        0.80801       -0.13911    
+    E1            0.35049       -0.45076E-01    0.39556    
+    E2            0.63630       -0.44657         1.0829    
+    E3           -0.15769       -0.38166        0.22397    
+
+ Element: B009
+    Coordinate    New Value     Original Value  Difference
+    X             0.60705E-02   -0.20022E-01    0.26092E-01
+    Y             0.83151E-01    0.10972       -0.26573E-01
+    Z             0.41264        0.40675        0.58903E-02
+    E0           -0.35638        0.19655       -0.55293    
+    E1            0.27222        0.37866       -0.10644    
+    E2            0.85166        0.90201       -0.50351E-01
+    E3            0.27123        0.66047E-01    0.20518    
+
+ Element: B010
+    Coordinate    New Value     Original Value  Difference
+    X             0.23430E-01    0.36618E-02    0.19768E-01
+    Y             0.95458E-01    0.11263       -0.17174E-01
+    Z             0.42783        0.43456       -0.67229E-02
+    E0           -0.35468        0.83284E-01   -0.43796    
+    E1            0.31659        0.37696       -0.60372E-01
+    E2            0.85585        0.92153       -0.65681E-01
+    E3            0.20371        0.41830E-01    0.16188    
+
+ Element: B011
+    Coordinate    New Value     Original Value  Difference
+    X             0.61999E-01    0.30355E-01    0.31644E-01
+    Y             0.13690        0.16654       -0.29634E-01
+    Z             0.42169        0.42198       -0.29076E-03
+    E0            0.78764        0.91307       -0.12543    
+    E1            0.36616E-01   -0.19920        0.23581    
+    E2            0.47188       -0.10130        0.57319    
+    E3           -0.39447       -0.34113       -0.53347E-01
+
+ Element: B012
+    Coordinate    New Value     Original Value  Difference
+    X             0.37224E-01    0.14523E-02    0.35771E-01
+    Y             0.80542E-01    0.11008       -0.29542E-01
+    Z             0.43808        0.45845       -0.20363E-01
+    E0            0.70995        0.92557       -0.21561    
+    E1            0.29040        0.10225        0.18815    
+    E2            0.59854        0.75010E-01    0.52353    
+    E3           -0.23104       -0.35671        0.12567    
+
+ Element: B013
+    Coordinate    New Value     Original Value  Difference
+    X             0.79245E-01    0.31515E-01    0.47729E-01
+    Y             0.12404        0.17508       -0.51042E-01
+    Z             0.42944        0.44452       -0.15083E-01
+    E0            0.61614        0.91946       -0.30332    
+    E1            0.15269       -0.14195        0.29464    
+    E2            0.68481        0.56594E-01    0.62822    
+    E3           -0.35790       -0.36227        0.43724E-02
+
+ Element: B014
+    Coordinate    New Value     Original Value  Difference
+    X             0.44886E-01    0.34663E-01    0.10222E-01
+    Y             0.11505        0.12574       -0.10690E-01
+    Z             0.43102        0.43997       -0.89543E-02
+    E0           -0.43773       -0.63926E-01   -0.37380    
+    E1            0.35830        0.38139       -0.23089E-01
+    E2            0.81583        0.92183       -0.10600    
+    E3            0.12015       -0.26181E-01    0.14633    
+
+ Element: B015
+    Coordinate    New Value     Original Value  Difference
+    X             0.61799E-01    0.35883E-01    0.25916E-01
+    Y             0.10015        0.12794       -0.27799E-01
+    Z             0.43926        0.46736       -0.28097E-01
+    E0            0.61262        0.92955       -0.31693    
+    E1            0.24133       -0.52081E-01    0.29341    
+    E2            0.69912       -0.36712E-02    0.70279    
+    E3           -0.27875       -0.36499        0.86239E-01
+
+ Element: B016
+    Coordinate    New Value     Original Value  Difference
+    X             0.84698E-01    0.10949       -0.24797E-01
+    Y             0.12165        0.12755       -0.58939E-02
+    Z             0.37696        0.36028        0.16680E-01
+    E0           -0.13455        0.40422       -0.53877    
+    E1           -0.74648E-01    0.54675E-01   -0.12932    
+    E2           -0.96354       -0.88492       -0.78617E-01
+    E3           -0.21890       -0.22479        0.58865E-02
+
+ Element: B017
+    Coordinate    New Value     Original Value  Difference
+    X            -0.43870E-02   -0.13935E-01    0.95479E-02
+    Y             0.13983        0.12959        0.10239E-01
+    Z             0.34308        0.34308         0.0000    
+    E0            0.93042        0.93042        0.59952E-14
+    E1            0.17720E-13     0.0000        0.17720E-13
+    E2            0.17719E-13     0.0000        0.17719E-13
+    E3           -0.36650       -0.36650        0.15377E-13
+
+ Element: B018
+    Coordinate    New Value     Original Value  Difference
+    X             0.88864E-02   -0.66149E-03    0.95479E-02
+    Y             0.14488        0.13465        0.10239E-01
+    Z             0.33008        0.33008         0.0000    
+    E0            0.93042        0.93042       -0.22204E-15
+    E1            0.17720E-13     0.0000        0.17720E-13
+    E2            0.17719E-13     0.0000        0.17719E-13
+    E3           -0.36650       -0.36650       -0.16098E-14
+
+ Element: B019
+    Coordinate    New Value     Original Value  Difference
+    X            -0.85044E-02   -0.18052E-01    0.95479E-02
+    Y             0.12623        0.11600        0.10239E-01
+    Z             0.33008        0.33008         0.0000    
+    E0            0.93042        0.93042        0.11324E-13
+    E1            0.17720E-13     0.0000        0.17720E-13
+    E2            0.17719E-13     0.0000        0.17719E-13
+    E3           -0.36650       -0.36650        0.28866E-13
+
+ Element: B020
+    Coordinate    New Value     Original Value  Difference
+    X             0.88864E-02   -0.66149E-03    0.95479E-02
+    Y             0.14488        0.13465        0.10239E-01
+    Z             0.35608        0.35608         0.0000    
+    E0            0.93042        0.93042       -0.22204E-15
+    E1            0.17720E-13     0.0000        0.17720E-13
+    E2            0.17719E-13     0.0000        0.17719E-13
+    E3           -0.36650       -0.36650       -0.16098E-14
+
+ Element: B021
+    Coordinate    New Value     Original Value  Difference
+    X            -0.85044E-02   -0.18052E-01    0.95479E-02
+    Y             0.12623        0.11600        0.10239E-01
+    Z             0.35608        0.35608         0.0000    
+    E0            0.93042        0.93042        0.11324E-13
+    E1            0.17720E-13     0.0000        0.17720E-13
+    E2            0.17719E-13     0.0000        0.17719E-13
+    E3           -0.36650       -0.36650        0.28866E-13
+
+ Element: B022
+    Coordinate    New Value     Original Value  Difference
+    X            -0.20966E-01   -0.30514E-01    0.95479E-02
+    Y             0.15241        0.14218        0.10239E-01
+    Z             0.34363        0.34363        0.26090E-14
+    E0           -0.88776E-01   -0.88776E-01   -0.39718E-13
+    E1            0.84385        0.84385        0.27756E-14
+    E2            0.52806        0.52806       -0.11546E-13
+    E3           -0.34448E-01   -0.34448E-01   -0.22135E-14
+
+ Element: B023
+    Coordinate    New Value     Original Value  Difference
+    X            -0.19918E-01   -0.29466E-01    0.95479E-02
+    Y             0.15397        0.14373        0.10239E-01
+    Z             0.38743        0.38743        0.27200E-14
+    E0            0.54313E-04    0.54313E-04   -0.43107E-13
+    E1            0.74585        0.74585        0.65503E-14
+    E2            0.66611        0.66611       -0.74385E-14
+    E3            0.60983E-04    0.60983E-04   -0.13767E-13
+
+ Element: FINALRAIL
+    Coordinate    New Value     Original Value  Difference
+    X             0.15781E-02    0.15781E-02     0.0000    
+    Y             0.13458        0.13458         0.0000    
+    Z             0.34308        0.34308         0.0000    
+    E0            0.28196        0.28196         0.0000    
+    E1           -0.64846       -0.64846         0.0000    
+    E2           -0.28196       -0.28196         0.0000    
+    E3           -0.64846       -0.64846         0.0000    
+
+ Element: the_ground
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: J022
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle      0.0000        0.50608E-14   -0.50608E-14
+
+ Element: MOTION_J001_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     -1.4835       -0.63838E-14    -1.4835    
+
+ Element: MOTION_J002_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     -1.3090        0.11341E-12    -1.3090    
+
+ Element: MOTION_J003_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.26180       -0.15921E-12    0.26180    
+
+ Element: MOTION_J004_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.52360        0.35777E-13    0.52360    
+
+ Element: MOTION_J005_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.43633       -0.60452E-13   -0.43633    
+
+ Element: MOTION_J006_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.27925        0.24591E-13    0.27925    
+
+ Element: MOTION_J007_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.17453        0.64601E-13   -0.17453    
+
+ Element: MOTION_J008_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.66323       -0.82157E-13   -0.66323    
+
+ Element: MOTION_J009_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.87266        0.26187E-13   -0.87266    
+
+ Element: MOTION_J010_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     -1.0472       -0.26645E-14    -1.0472    
+
+ Element: MOTION_J011_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.24435        0.46407E-13   -0.24435    
+
+ Element: MOTION_J012_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.26180        0.15543E-14   -0.26180    
+
+ Element: MOTION_J013_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.61087       -0.22510E-13    0.61087    
+
+ Element: MOTION_J014_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.52360       -0.84571E-13    0.52360    
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+ARM            1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+B001           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+B002           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+B003          0.22120E-01    0.10492E-05    0.96665E-06    0.50501E-06     0.0000         0.0000         0.0000    
+B004          0.35338E-01    0.27513E-05    0.26363E-05    0.94505E-06     0.0000         0.0000         0.0000    
+B005          0.35338E-01    0.27513E-05    0.26363E-05    0.94505E-06     0.0000         0.0000         0.0000    
+B006          0.45134E-01    0.42552E-05    0.41492E-05    0.14281E-05     0.0000         0.0000         0.0000    
+B007          0.44055E-01    0.35732E-05    0.32639E-05    0.16128E-05     0.0000         0.0000         0.0000    
+B008          0.11044E-01    0.34678E-06    0.31006E-06    0.21232E-06     0.0000         0.0000         0.0000    
+B009          0.16325E-01    0.57113E-06    0.51633E-06    0.34917E-06     0.0000         0.0000         0.0000    
+B010          0.27567E-01    0.16505E-05    0.15909E-05    0.68747E-06     0.0000         0.0000         0.0000    
+B011          0.27567E-01    0.16505E-05    0.15909E-05    0.68747E-06     0.0000         0.0000         0.0000    
+B012          0.18360E-01    0.86650E-06    0.82896E-06    0.41660E-06     0.0000         0.0000         0.0000    
+B013          0.18360E-01    0.86650E-06    0.82896E-06    0.41660E-06     0.0000         0.0000         0.0000    
+B014          0.36360E-01    0.25739E-05    0.25295E-05    0.10590E-05     0.0000         0.0000         0.0000    
+B015          0.22162E-01    0.11464E-05    0.11187E-05    0.56088E-06     0.0000         0.0000         0.0000    
+B016          0.31279E-01    0.18924E-05    0.17665E-05    0.98363E-06     0.0000         0.0000         0.0000    
+B017          0.44323E-01    0.11264E-04    0.57805E-05    0.55964E-05     0.0000         0.0000         0.0000    
+B018          0.53649E-02    0.13537E-06    0.87020E-07    0.87020E-07     0.0000         0.0000         0.0000    
+B019          0.53649E-02    0.13537E-06    0.87020E-07    0.87020E-07     0.0000         0.0000         0.0000    
+B020          0.53649E-02    0.13537E-06    0.87020E-07    0.87020E-07     0.0000         0.0000         0.0000    
+B021          0.53649E-02    0.13537E-06    0.87020E-07    0.87020E-07     0.0000         0.0000         0.0000    
+B022          0.23682        0.48820E-04    0.40243E-04    0.36130E-04     0.0000         0.0000         0.0000    
+B023          0.77287E-01    0.16439E-04    0.16435E-04    0.21231E-05     0.0000         0.0000         0.0000    
+FINALRAIL      1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+ Using QR Initial Velocity Method
+
+[1286]
+Warning:  Initial conditions may not be sufficient (DAP2).
+Solution of initial velocities, using QR method:
+
+ Element: ARM
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B001
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Velocity
+    X             0.246802E-01
+    Y            -0.165205E-01
+    Z            -0.170648E-01
+    E0           -0.179320    
+    E1            0.501709    
+    E2             1.39708    
+    E3            0.289976    
+
+ Element: B004
+    Coordinate    Velocity
+    X             0.327412E-01
+    Y            -0.267177E-01
+    Z            -0.203569E-01
+    E0            -1.40369    
+    E1           -0.173906    
+    E2           -0.163030    
+    E3            0.540944    
+
+ Element: B005
+    Coordinate    Velocity
+    X             0.264888E-01
+    Y            -0.329831E-01
+    Z            -0.191165E-01
+    E0           -0.278426    
+    E1            0.573066    
+    E2             1.37657    
+    E3           -0.137582    
+
+ Element: B006
+    Coordinate    Velocity
+    X             0.322552E-01
+    Y            -0.331104E-01
+    Z            -0.234565E-01
+    E0            -1.39709    
+    E1           -0.141586E-01
+    E2           -0.229645    
+    E3            0.561255    
+
+ Element: B007
+    Coordinate    Velocity
+    X            -0.538073E-01
+    Y            -0.692855E-02
+    Z             0.243539E-01
+    E0            -1.76634    
+    E1           -0.437418    
+    E2           -0.557508    
+    E3           -0.506748E-01
+
+ Element: B008
+    Coordinate    Velocity
+    X             0.131449    
+    Y            -0.458393E-01
+    Z            -0.201653    
+    E0            -3.33880    
+    E1            0.827837    
+    E2             3.50957    
+    E3             1.83889    
+
+ Element: B009
+    Coordinate    Velocity
+    X             0.791031E-01
+    Y            -0.458216E-01
+    Z            -0.734276E-01
+    E0            -2.65910    
+    E1           -0.847396    
+    E2            -1.11252    
+    E3            0.849901    
+
+ Element: B010
+    Coordinate    Velocity
+    X             0.110611    
+    Y            -0.831258E-01
+    Z            -0.106864    
+    E0            -3.08425    
+    E1           -0.745257    
+    E2            -1.25871    
+    E3             1.07643    
+
+ Element: B011
+    Coordinate    Velocity
+    X             0.701305E-01
+    Y            -0.111832    
+    Z            -0.107179    
+    E0            -1.68925    
+    E1             1.35863    
+    E2             2.84386    
+    E3            0.155148    
+
+ Element: B012
+    Coordinate    Velocity
+    X             0.182089    
+    Y            -0.114276    
+    Z            -0.296379    
+    E0            -3.27283    
+    E1             1.26333    
+    E2             3.88194    
+    E3             1.58772    
+
+ Element: B013
+    Coordinate    Velocity
+    X             0.660466E-01
+    Y            -0.192605    
+    Z            -0.302403    
+    E0            -3.90622    
+    E1             2.04145    
+    E2             3.51438    
+    E3            0.870759    
+
+ Element: B014
+    Coordinate    Velocity
+    X             0.966242E-01
+    Y            -0.106107    
+    Z            -0.123808    
+    E0            -2.95639    
+    E1           -0.475774    
+    E2            -1.55346    
+    E3             1.19632    
+
+ Element: B015
+    Coordinate    Velocity
+    X             0.118038    
+    Y            -0.153732    
+    Z            -0.337742    
+    E0            -3.98778    
+    E1             1.59021    
+    E2             3.49423    
+    E3             1.37637    
+
+ Element: B016
+    Coordinate    Velocity
+    X            -0.197154    
+    Y             0.276929E-02
+    Z             0.323453E-01
+    E0            -4.03572    
+    E1           -0.916993    
+    E2            0.563465    
+    E3            0.313129    
+
+ Element: B017
+    Coordinate    Velocity
+    X            -0.309479E-01
+    Y            -0.331880E-01
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B018
+    Coordinate    Velocity
+    X            -0.309479E-01
+    Y            -0.331880E-01
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B019
+    Coordinate    Velocity
+    X            -0.309479E-01
+    Y            -0.331880E-01
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B020
+    Coordinate    Velocity
+    X            -0.309479E-01
+    Y            -0.331880E-01
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B021
+    Coordinate    Velocity
+    X            -0.309479E-01
+    Y            -0.331880E-01
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B022
+    Coordinate    Velocity
+    X            -0.309479E-01
+    Y            -0.331880E-01
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B023
+    Coordinate    Velocity
+    X            -0.309479E-01
+    Y            -0.331823E-01
+    Z            -0.555556E-03
+    E0            0.106436E-03
+    E1             1.16259    
+    E2            -1.30176    
+    E3           -0.947947E-04
+
+ Element: FINALRAIL
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J022
+    Coordinate    Velocity
+    Rel.angle      3.49066    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Velocity
+    Rel.angle     -3.04617    
+
+ Element: MOTION_J002_RZ
+    Coordinate    Velocity
+    Rel.angle     -4.24941    
+
+ Element: MOTION_J003_RZ
+    Coordinate    Velocity
+    Rel.angle     -3.19848    
+
+ Element: MOTION_J004_RZ
+    Coordinate    Velocity
+    Rel.angle      3.04617    
+
+ Element: MOTION_J005_RZ
+    Coordinate    Velocity
+    Rel.angle     -4.11234    
+
+ Element: MOTION_J006_RZ
+    Coordinate    Velocity
+    Rel.angle      3.77726    
+
+ Element: MOTION_J007_RZ
+    Coordinate    Velocity
+    Rel.angle     -3.04617    
+
+ Element: MOTION_J008_RZ
+    Coordinate    Velocity
+    Rel.angle     -4.11234    
+
+ Element: MOTION_J009_RZ
+    Coordinate    Velocity
+    Rel.angle     -4.24941    
+
+ Element: MOTION_J010_RZ
+    Coordinate    Velocity
+    Rel.angle     -3.04617    
+
+ Element: MOTION_J011_RZ
+    Coordinate    Velocity
+    Rel.angle     -4.11234    
+
+ Element: MOTION_J012_RZ
+    Coordinate    Velocity
+    Rel.angle     -4.24941    
+
+ Element: MOTION_J013_RZ
+    Coordinate    Velocity
+    Rel.angle      3.80772    
+
+ Element: MOTION_J014_RZ
+    Coordinate    Velocity
+    Rel.angle      4.56926    
+
+Solution of velocities in local coordinates:
+
+ Element: ARM
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B001
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B002
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B003
+    Coordinate    Velocity
+    X             0.246802E-01
+    Y            -0.165205E-01
+    Z            -0.170648E-01
+    OMEGA_XL     -0.319578E-01
+    OMEGA_YL       3.04601    
+    OMEGA_ZL     -0.298204E-04
+
+ Element: B004
+    Coordinate    Velocity
+    X             0.327412E-01
+    Y            -0.267177E-01
+    Z            -0.203569E-01
+    OMEGA_XL     -0.142871E-01
+    OMEGA_YL       3.04614    
+    OMEGA_ZL      0.355597E-04
+
+ Element: B005
+    Coordinate    Velocity
+    X             0.264888E-01
+    Y            -0.329831E-01
+    Z            -0.191165E-01
+    OMEGA_XL     -0.142871E-01
+    OMEGA_YL       3.04614    
+    OMEGA_ZL     -0.355597E-04
+
+ Element: B006
+    Coordinate    Velocity
+    X             0.322552E-01
+    Y            -0.331104E-01
+    Z            -0.234565E-01
+    OMEGA_XL      0.606305E-03
+    OMEGA_YL       3.04617    
+    OMEGA_ZL     -0.421862E-05
+
+ Element: B007
+    Coordinate    Velocity
+    X            -0.538073E-01
+    Y            -0.692855E-02
+    Z             0.243539E-01
+    OMEGA_XL      0.503952E-03
+    OMEGA_YL      -3.80772    
+    OMEGA_ZL      0.454205E-04
+
+ Element: B008
+    Coordinate    Velocity
+    X             0.131449    
+    Y            -0.458393E-01
+    Z            -0.201653    
+    OMEGA_XL      0.887414E-03
+    OMEGA_YL       10.4941    
+    OMEGA_ZL      0.488814E-03
+
+ Element: B009
+    Coordinate    Velocity
+    X             0.791031E-01
+    Y            -0.458216E-01
+    Z            -0.734276E-01
+    OMEGA_XL      0.596142E-03
+    OMEGA_YL       6.24466    
+    OMEGA_ZL     -0.102225E-02
+
+ Element: B010
+    Coordinate    Velocity
+    X             0.110611    
+    Y            -0.831258E-01
+    Z            -0.106864    
+    OMEGA_XL      0.126169    
+    OMEGA_YL       7.15738    
+    OMEGA_ZL      0.143625E-01
+
+ Element: B011
+    Coordinate    Velocity
+    X             0.701305E-01
+    Y            -0.111832    
+    Z            -0.107179    
+    OMEGA_XL     -0.126169    
+    OMEGA_YL       7.15738    
+    OMEGA_ZL     -0.143625E-01
+
+ Element: B012
+    Coordinate    Velocity
+    X             0.182089    
+    Y            -0.114276    
+    Z            -0.296379    
+    OMEGA_XL      0.284771E-03
+    OMEGA_YL       10.9358    
+    OMEGA_ZL     -0.228420E-03
+
+ Element: B013
+    Coordinate    Velocity
+    X             0.660466E-01
+    Y            -0.192605    
+    Z            -0.302403    
+    OMEGA_XL      0.297169E-03
+    OMEGA_YL       11.4079    
+    OMEGA_ZL     -0.238283E-03
+
+ Element: B014
+    Coordinate    Velocity
+    X             0.966242E-01
+    Y            -0.106107    
+    Z            -0.123808    
+    OMEGA_XL      0.209777    
+    OMEGA_YL       7.15543    
+    OMEGA_ZL      0.332188E-04
+
+ Element: B015
+    Coordinate    Velocity
+    X             0.118038    
+    Y            -0.153732    
+    Z            -0.337742    
+    OMEGA_XL      0.577054E-03
+    OMEGA_YL       11.4079    
+    OMEGA_ZL      0.183102E-03
+
+ Element: B016
+    Coordinate    Velocity
+    X            -0.197154    
+    Y             0.276929E-02
+    Z             0.323453E-01
+    OMEGA_XL      0.990477E-03
+    OMEGA_YL      -8.37698    
+    OMEGA_ZL      0.132472E-03
+
+ Element: B017
+    Coordinate    Velocity
+    X            -0.309479E-01
+    Y            -0.331880E-01
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B018
+    Coordinate    Velocity
+    X            -0.309479E-01
+    Y            -0.331880E-01
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B019
+    Coordinate    Velocity
+    X            -0.309479E-01
+    Y            -0.331880E-01
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B020
+    Coordinate    Velocity
+    X            -0.309479E-01
+    Y            -0.331880E-01
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B021
+    Coordinate    Velocity
+    X            -0.309479E-01
+    Y            -0.331880E-01
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B022
+    Coordinate    Velocity
+    X            -0.309479E-01
+    Y            -0.331880E-01
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B023
+    Coordinate    Velocity
+    X            -0.309479E-01
+    Y            -0.331823E-01
+    Z            -0.555556E-03
+    OMEGA_XL     -0.649660E-04
+    OMEGA_YL     -0.566404E-03
+    OMEGA_ZL       3.49066    
+
+ Element: FINALRAIL
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+Number of real data in the system     =    322051
+Number of integer data in the system  =    211188
+
+
+[1310]
+Warning:  Number of constraints is greater than or equal to the number
+of generalized coordinates.
+  Number of generalized coordinates =                  197
+  Number of constraints             =                  197
+
+Solution of accelerations in local coordinates:
+
+ Element: ARM
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X            -0.231326E-01
+    Y             0.543109E-01
+    Z            -0.860347E-01
+    OMEGAD_XL     0.913566E-11
+    OMEGAD_YL    -0.869005E-09
+    OMEGAD_ZL     0.377476E-14
+
+ Element: B004
+    Coordinate    Acceleration
+    X            -0.338848E-01
+    Y             0.554376E-01
+    Z            -0.127259    
+    OMEGAD_XL    -0.208722E-13
+    OMEGAD_YL    -0.194289E-15
+    OMEGAD_ZL     0.448946E-14
+
+ Element: B005
+    Coordinate    Acceleration
+    X            -0.709480E-01
+    Y             0.134859E-01
+    Z            -0.121577    
+    OMEGAD_XL     0.234257E-13
+    OMEGAD_YL    -0.189815E-11
+    OMEGAD_ZL    -0.124345E-13
+
+ Element: B006
+    Coordinate    Acceleration
+    X            -0.615190E-01
+    Y             0.392656E-01
+    Z            -0.140021    
+    OMEGAD_XL    -0.127676E-13
+    OMEGAD_YL     0.344516E-14
+    OMEGAD_ZL     0.239496E-13
+
+ Element: B007
+    Coordinate    Acceleration
+    X            -0.944693E-01
+    Y             0.984386E-01
+    Z            -0.180715    
+    OMEGAD_XL     0.204281E-13
+    OMEGAD_YL     0.106859E-14
+    OMEGAD_ZL     0.255351E-14
+
+ Element: B008
+    Coordinate    Acceleration
+    X             -1.09615    
+    Y              1.22801    
+    Z            -0.540930    
+    OMEGAD_XL    -0.231801E-07
+    OMEGAD_YL    -0.282064E-03
+    OMEGAD_ZL    -0.131015E-07
+
+ Element: B009
+    Coordinate    Acceleration
+    X            -0.228619    
+    Y             0.342728    
+    Z            -0.340413    
+    OMEGAD_XL     0.480238E-11
+    OMEGAD_YL     0.144029E-07
+    OMEGAD_ZL    -0.745248E-11
+
+ Element: B010
+    Coordinate    Acceleration
+    X            -0.430938    
+    Y             0.517156    
+    Z            -0.615507    
+    OMEGAD_XL    -0.524025E-13
+    OMEGAD_YL    -0.403855E-11
+    OMEGAD_ZL    -0.623057E-12
+
+ Element: B011
+    Coordinate    Acceleration
+    X            -0.627562    
+    Y             0.358613    
+    Z            -0.523000    
+    OMEGAD_XL    -0.229625E-09
+    OMEGAD_YL    -0.110808E-08
+    OMEGAD_ZL     0.311582E-09
+
+ Element: B012
+    Coordinate    Acceleration
+    X             -1.75421    
+    Y              1.84754    
+    Z             -1.13029    
+    OMEGAD_XL    -0.256559E-10
+    OMEGAD_YL    -0.136788E-08
+    OMEGAD_ZL     0.537650E-10
+
+ Element: B013
+    Coordinate    Acceleration
+    X             -2.19412    
+    Y              1.69309    
+    Z            -0.814592    
+    OMEGAD_XL    -0.803896E-09
+    OMEGAD_YL    -0.874381E-07
+    OMEGAD_ZL     0.294959E-09
+
+ Element: B014
+    Coordinate    Acceleration
+    X            -0.602451    
+    Y             0.482245    
+    Z            -0.615300    
+    OMEGAD_XL    -0.425855E-10
+    OMEGAD_YL     0.981881E-12
+    OMEGAD_ZL     0.548110E-10
+
+ Element: B015
+    Coordinate    Acceleration
+    X             -2.18840    
+    Y              1.93301    
+    Z            -0.832961    
+    OMEGAD_XL     0.122323E-09
+    OMEGAD_YL    -0.322073E-06
+    OMEGAD_ZL    -0.321325E-10
+
+ Element: B016
+    Coordinate    Acceleration
+    X             0.798439E-01
+    Y             0.541665    
+    Z             -1.10979    
+    OMEGAD_XL    -0.553335E-12
+    OMEGAD_YL     0.105873E-09
+    OMEGAD_ZL    -0.494493E-12
+
+ Element: B017
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: B018
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: B019
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: B020
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: B021
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: B022
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: B023
+    Coordinate    Acceleration
+    X             0.200618E-04
+    Y             0.773990E-07
+    Z            -0.100824E-16
+    OMEGAD_XL    -0.631315E-14
+    OMEGAD_YL     0.222930E-13
+    OMEGAD_ZL     0.275788E-14
+
+ Element: FINALRAIL
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+Total Number of Bodies             =   26
+
+Total Number of Degrees of Freedom =  171
+Number of Kinematic Constraints    =  171
+Number of Drivers                  =   16
+Number of Initial Conditions       =    0
+Number of Degrees of Freedom       =    0
+
+The number of symbolic factorizations of the Acceleration matrix =                    1
+
+The number of symbolic factorizations of BDF Jacobian matrix =                    1
+
+[1441]
+Final integrator statistics:
+  Number of steps                 =                  110
+  Number of f-s                   =                  289
+  Number of j-s                   =                    6
+  Ratio of f-s/steps              =  2.6272727272727
+  Ratio of j-s/steps              = 0.54545454545455E-01
+  Current time                    =  1.0000000000000
+  Total velocity computations     =                   11
+  Total position computations     =                   11
+Average Integration Order =   3.345454545455    
+Average Step Size         =  0.9095181818182E-02
+
+Userdef was internal
+
+    Total elapsed CPU time:   4.344000    
+    Total clock time:          4

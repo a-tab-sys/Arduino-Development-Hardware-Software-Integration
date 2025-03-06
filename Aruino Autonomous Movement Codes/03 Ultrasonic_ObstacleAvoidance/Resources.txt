@@ -1,0 +1,5 @@
+Simpler
+https://circuitdigest.com/microcontroller-projects/arduino-obstacle-avoding-robot
+
+More complex
+https://circuitdigest.com/microcontroller-projects/arduino-obstacle-avoiding-car
